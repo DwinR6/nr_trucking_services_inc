@@ -1,41 +1,32 @@
 # NR Trucking Services Inc.
 
-## Descripción del proyecto
+Sistema Integral de Gestión de Transporte de Carga
 
-El proyecto NR Trucking Services Inc. es un sistema de gestión de servicios de transporte de carga. El objetivo principal del proyecto es facilitar la administración de las operaciones de transporte de carga de la empresa, incluyendo la gestión de clientes, conductores, vehículos y rutas.
+## Descripción
 
-El sistema permitirá a los usuarios realizar tareas como registrar nuevos clientes, asignar conductores y vehículos a rutas específicas, generar informes de rendimiento y facturación, y realizar un seguimiento en tiempo real de las entregas.
+Este repositorio contiene el sistema integral de gestión de transporte de carga desarrollado para NR Trucking Services Inc., una empresa de camiones con sede en Roosevelt, Nueva York. El sistema incluye una aplicación móvil desarrollada en Flutter para la gestión de conductores, camiones, cargas y clientes, así como un backend que inicialmente utiliza Firebase (Functions, Storage, Hosting) y que posiblemente se migre a un servidor privado con Node.js y MongoDB en el futuro.
 
-El proyecto se desarrollará utilizando tecnologías modernas de desarrollo de software, como lenguajes de programación, bases de datos y frameworks web. Se seguirán las mejores prácticas de desarrollo de software para garantizar la calidad y la eficiencia del sistema.
+## Estructura del Repositorio
 
-## Objetivos del proyecto
+- **nrtsi_app:** Submódulo de la aplicación móvil desarrollada en Flutter para la gestión de transporte de carga.
+- **nrtsi_sys:** Submódulo del sistema backend que inicialmente utiliza Firebase y que posiblemente se migre a un servidor privado en el futuro.
 
-- Automatizar y agilizar los procesos de gestión de servicios de transporte de carga.
-- Mejorar la eficiencia operativa y reducir los costos asociados con la gestión manual de las operaciones.
-- Proporcionar a los usuarios una interfaz intuitiva y fácil de usar para realizar tareas relacionadas con el transporte de carga.
-- Generar informes y análisis en tiempo real para tomar decisiones informadas y mejorar la toma de decisiones estratégicas.
+## Objetivos del Proyecto
 
-## Tecnologías utilizadas
+- Desarrollar un sistema integral de gestión que facilite la administración de conductores, camiones, cargas y clientes para NR Trucking Services Inc.
+- Permitir el seguimiento y control eficiente del estado de las operaciones de transporte de carga.
+- Escalar el sistema en el futuro para incluir funcionalidades adicionales como facturación, estadísticas y gestión avanzada de clientes.
 
-- Lenguaje de programación: [Dart]
-- Base de datos: [Firebase]
-- Framework web: [Flutter]
+## Tecnologías Utilizadas
 
+- **Frontend:** Flutter
+- **Backend Inicial:** Firebase (Functions, Storage, Hosting)
+- **Backend Futuro:** Node.js y MongoDB (en VPS)
+- **Gestión de Estado:** Flutter Bloc
 
-## Equipo de desarrollo
+## Instalación y Configuración
 
-El proyecto será desarrollado por un equipo de profesionales con experiencia en desarrollo de software y conocimientos en el dominio de la logística y el transporte de carga.
-
-## Plan de desarrollo
-
-El proyecto se desarrollará en varias etapas, siguiendo un enfoque ágil de desarrollo de software. Cada etapa se dividirá en tareas más pequeñas y se asignarán a los miembros del equipo de desarrollo. Se realizarán reuniones regulares para revisar el progreso y realizar ajustes según sea necesario.
-
-## Fecha de entrega
-
-La fecha de entrega del proyecto se acordará con el cliente y se establecerá en función de los requisitos y la complejidad del sistema.
-
-[Dart]: https://dart.dev/
-[Firebase]: https://firebase.google.com/
-[Flutter]: https://flutter.dev/
-```
-
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/tu_usuario/nr_trucking_services_inc.git
+   cd nr_trucking_services_inc
